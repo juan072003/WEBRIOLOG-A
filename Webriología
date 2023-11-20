@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Salud</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #eee;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav li {
+            margin-right: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Portal de Información de Salud</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#seccion1">Prevención</a></li>
+            <li><a href="#seccion2">Enfermedades Comunes</a></li>
+            <li><a href="#seccion3">Estilo de Vida Saludable</a></li>
+            <li><a href="#seccion4">Recursos</a></li>
+        </ul>
+    </nav>
+
+    <section id="seccion1">
+        <h2>Prevención</h2>
+        <p>
+            Proporciona información sobre medidas preventivas para mantener una buena salud, como vacunaciones, revisiones médicas regulares, y hábitos alimenticios saludables.
+        </p>
+    </section>
+
+    <section id="seccion2">
+        <h2>Enfermedades Comunes</h2>
+        <p>
+            Ofrece información sobre enfermedades comunes, sus síntomas, tratamientos y medidas preventivas. Puede incluir secciones específicas para enfermedades como diabetes, hipertensión, etc.
+        </p>
+    </section>
+
+    <section id="seccion3">
+        <h2>Estilo de Vida Saludable</h2>
+        <p>
+            Explora la importancia de llevar un estilo de vida saludable, incluyendo consejos sobre ejercicio, alimentación balanceada y manejo del estrés.
+        </p>
+    </section>
+
+    <section id="seccion4">
+        <h2>Recursos</h2>
+        <p>
+            Proporciona enlaces a recursos adicionales, como sitios web de salud confiables, libros recomendados, y contactos de profesionales de la salud.
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Portal de Información de Salud</p>
+    </footer>
+
+</body>
+</html>
+body {
+    font-family: 'Calibri', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FF0000; /* Rojo cuando se pasa el mouse */
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #FF0000; /* Rojo para los títulos de sección */
+}
+
+p {
+    color: #333;
+}
+
+footer {
+    margin-top: 30px;
+}
